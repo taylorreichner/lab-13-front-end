@@ -1,6 +1,6 @@
 import request from 'superagent';
 
-const URL = 'http://localhost:3003';
+const URL = 'https://sheltered-hamlet-55186.herokuapp.com';
 
 export async function signUpUser(email, password) {
     const response = await request

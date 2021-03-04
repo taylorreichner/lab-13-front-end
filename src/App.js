@@ -28,7 +28,7 @@ export default class App extends Component {
               <Route path='/' exact render={(routerProps) => <Home {...routerProps} />} />
               <Route path='/todos' exact render={(routerProps) => <TodosListPage user={this.state.user}{...routerProps}/>} />
               <Route path='/login' exact render={(routerProps) => <LoginPage handleUserChange={this.handleUserChange}{...routerProps}/>} />
-              <Route path='/signup' exact render={(routerProps) => <SignUpPage handleUserChang={this.handleUserChange}{...routerProps}/>} />
+              <Route path='/signup' exact render={(routerProps) => <SignUpPage handleUserChange={this.handleUserChange}{...routerProps}/>} />
 
             </Switch>
 
